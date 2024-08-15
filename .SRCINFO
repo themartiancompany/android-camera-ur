@@ -1,0 +1,16 @@
+pkgbase = android-camera
+	pkgdesc = Android camera.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-camera
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = android-utils
+	depends = libcrash-bash
+	source = android-camera-8134e9cd19512fbc3d2e25411f1e8feaaaff764e.zip::https://github.com/themartiancompany/android-camera/archive/8134e9cd19512fbc3d2e25411f1e8feaaaff764e.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = d80643b2fb4e8ea88c6e8ad22a2697cc675ec49248d375106d49fa3b4bb70a43
+
+pkgname = android-camera

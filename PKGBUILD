@@ -23,7 +23,7 @@ license=(
   AGPL3
 )
 depends=(
-  "android-utils"
+  "android-activity-utils"
   "libcrash-bash"
 )
 _os="$( \
